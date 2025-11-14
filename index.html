@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Prashanth Chavan — Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#Home">
+        <img src="my photo.jpg" alt="Prashanth" class="brand-img" />
+        <span class="brand-name">Prashanth Chavan</span>
+      </a>
+
+      <nav class="nav-desktop">
+        <ul class="nav-list">
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#content">About</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#Projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <div class="social-icons">
+          <a href="https://github.com/prashanth2508" target="_blank"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/prashanth-chavan-54b198311/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/prashanth_chavan08/?hl=en" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://x.com/PrashanthC85315" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+        </div>
+
+        <button id="btnHamburger" class="hamburger" aria-label="Open menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile slide menu -->
+  <div id="mobileMenu" class="mobile-menu">
+    <button id="btnCloseMenu" class="close-menu" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+    <ul class="mobile-nav-list">
+      <li><a href="#Home" class="mobile-link">Home</a></li>
+      <li><a href="#content" class="mobile-link">About</a></li>
+      <li><a href="#Skills" class="mobile-link">Skills</a></li>
+      <li><a href="#Projects" class="mobile-link">Projects</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+
+    <div class="mobile-social">
+      <a href="https://github.com/prashanth2508"><i class="fa-brands fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/prashanth-chavan-54b198311/"><i class="fa-brands fa-linkedin"></i></a>
+      <a href="https://www.instagram.com/prashanth_chavan08/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://x.com/PrashanthC85315"><i class="fa-brands fa-x-twitter"></i></a>
+    </div>
+  </div>
+
+  <!-- HERO -->
+  <main>
+    <section id="Home" class="hero section">
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <p class="muted">HI THERE 👋, I'M</p>
+          <h1 class="hero-title">Prashanth Chavan</h1>
+          <p class="hero-sub">
+            Frontend Developer focused on building clean, responsive and interactive user experiences.
+            I work with HTML, CSS, JavaScript, TailwindCss, Bootstrap and modern frameworks like React to turn ideas into delightful interfaces.
+          </p>
+          <div class="hero-ctas">
+            <a class="btn btn-primary" href="#Projects">View Projects</a>
+            <a class="btn btn-outline" href="#contact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-right">
+          <img src="—Pngtree—developers are coding programs on_14867886.png" alt="Developer illustration" class="hero-image">
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="content" class="about section">
+      <div class="container about-grid">
+        <div class="about-card reveal">
+          <img src="my photo.jpg" alt="Prashanth" class="about-photo">
+        </div>
+
+        <div class="about-text reveal">
+          <h2>WHO IS PRASHANTH CHAVAN 🧐?</h2>
+          <h3>A Bit About Me</h3>
+          <p>
+            Hello! I'm Prashanth — a frontend developer passionate about building accessible
+            and performant user interfaces. With a background in computer science, I enjoy
+            crafting clean code and
+            beautiful designs and learning new tools and techniques every day.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="Skills" class="skills section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>MY SKILLS</h2>
+          <p class="lead">Some tools & technologies I work with</p>
+        </div>
+
+        <div class="skills-grid reveal">
+          <div class="skill">
+            <img src="html-5-svgrepo-com.svg" alt="HTML" />
+            <span>HTML</span>
+          </div>
+
+          <div class="skill">
+            <img src="css-3-svgrepo-com.svg" alt="CSS" />
+            <span>CSS</span>
+          </div>
+
+          <div class="skill">
+            <img src="javascript-svgrepo-com.svg" alt="JS" />
+            <span>JavaScript</span>
+          </div>
+
+          <div class="skill">
+            <img src="react-svgrepo-com.svg" alt="React" />
+            <span>React</span>
+          </div>
+
+          <div class="skill">
+            <img src="tailwindcss-icon-svgrepo-com.svg" alt="Tailwind" />
+            <span>Tailwind</span>
+          </div>
+
+          <div class="skill">
+            <img src="bootstrap-svgrepo-com.svg" alt="Bootstrap" />
+            <span>Bootstrap</span>
+          </div>
+
+          <div class="skill">
+            <img src="git-svgrepo-com.svg" alt="Git" />
+            <span>Git</span>
+          </div>
+
+          <div class="skill">
+            <img src="python-svgrepo-com.svg" alt="Python" />
+            <span>Python</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="Projects" class="projects section">
+      <div class="container">
+        <div class="section-head reveal">
+          <h2>MY PROJECTS</h2>
+          <h3>Some Things I Built</h3>
+          <p class="lead">I like to stay busy and always have a project in the works. Take a look below.</p>
+        </div>
+
+        <div class="projects-grid reveal">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <img src="—Pngtree—developers are coding programs on_14867886.png" alt="Portfolio project" />
+            <div class="project-body">
+              <h4>Portfolio Website</h4>
+              <p>A responsive portfolio built with modern HTML, CSS and JS — showcases projects and contact info.</p>
+              <div class="project-actions">
+                <a class="project-link" href="#" target="_blank">Live</a>
+                <a class="project-link" href="#" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <img src="E-commerce.png" alt="Weather app" />
+            <div class="project-body">
+              <h4>Mini E-Commerce website(Shopzo)</h4>
+              <p>A simple yet functional e-commerce web application built using HTML, CSS, and JavaScript. The project showcases core online-shopping features and a clean UI design.</p>
+              <div class="project-actions">
+                <a class="project-link" href="https://prashanth2508.github.io/E-commerce-website/" target="_blank">Live</a>
+                <a class="project-link" href="https://github.com/prashanth2508/E-commerce-website" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <img src="gradient-pallete-generator.jpg" alt="Todo app" />
+            <div class="project-body">
+              <h4>Gradient-Pallete-Generator</h4>
+              <p>A sleek and interactive tool that allows users to generate beautiful color gradients with ease. Built using HTML, CSS, and JavaScript, this project focuses on creativity, UI design, and dynamic color handling.</p>
+              <div class="project-actions">
+                <a class="project-link" href="https://prashanth2508.github.io/gradient-palette-generator/" target="_blank">Live</a>
+                <a class="project-link" href="https://github.com/prashanth2508/gradient-palette-generator" target="_blank">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!--FOOTER -->
+    <section id="contact" class="contact section">
+      <div class="container contact-grid reveal">
+        <div class="contact-left">
+          <h2>Let’s Work Together</h2>
+          <p>Have an idea or project? I’d love to hear about it. Reach out and let's build something great.</p>
+        </div>
+
+        <div class="contact-right">
+          <a class="btn btn-primary" href="mailto:prashanth@example.com">Say Hello</a>
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Prashanth Chavan • Built with ❤️</p>
+      </div>
+    </footer>
+  </main>
+  <script src="index.js"></script>
+</body>
+</html>
